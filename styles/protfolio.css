@@ -151,7 +151,7 @@ main {
 
 /* what i do related styles */
 
-.todo{
+.todo {
     margin-top: 130px;
 }
 
@@ -183,7 +183,47 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
+
 /* resume related styles */
-.resume{
+.resume {
+    margin: 100px 0;
+}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
     margin-top: 100px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.resume-institution {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.resume-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.download-btn{
+    margin-top: 50px;
+    text-align: center;
 }
