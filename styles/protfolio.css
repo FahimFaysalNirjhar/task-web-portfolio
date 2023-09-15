@@ -223,7 +223,52 @@ main {
     margin-bottom: 30px;
 }
 
-.download-btn{
+.download-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* footer related styles */
+footer {
+    background: #FFF8F3;
+    padding: 130px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 150px;
+}
+
+.form-container input,
+textarea {
+    display: block;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    width: 562px;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+textarea {
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 18px 30px;
 }
